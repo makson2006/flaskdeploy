@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Add records
+{% endblock %}
+
+{% block body %}
+
+<h1>Add records</h1>
+
+<form method="post" class="form-control">
+    <input type="text" name="title" placeholder="Enter title" class="form-control"><br>
+    <input type="text" name="text" placeholder="Enter text" class="form-control"><br>
+    <button class="btn btn-success" type="submit">add</button>
+
+</form>
+{% endblock %}
